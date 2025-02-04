@@ -3,31 +3,9 @@ package org.cis1200;
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * This file tests the various image manipulations on the default
- * image (a view of Positano, Italy).
- *
- * Note though that due to the imprecise nature of floating point
- * arithmetic, your code may be correct yet not pass these tests. (We
- * won't be using these tests to grade your assignment! Our tests take
- * this imprecision into account.) Instead, these tests give you an
- * idea of how close your answers are to *our* solution. Just looking
- * at the output of your code in the GUI may not be enough to see the
- * differences.
- *
- * This file also gives you a place to add your own JUnit test cases.
- * Do *not* add them to ManipulateTest.java as you will not be
- * submitting that file.
- */
 
 public class ImageTest {
 
-    /*
-     * IMPORTANT: Make sure that this points to the correct directory before
-     * running the tests! You will need to download and extract the provided
-     * images from the homework instructions for this to work. (And don't forget
-     * that the string should end with a '/' character!)
-     */
     static final String LOCATION = "images/";
 
     static final PixelPicture ITALY = new PixelPicture(LOCATION + "Italy.png");
